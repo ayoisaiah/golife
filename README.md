@@ -27,7 +27,7 @@ Basic usage:
 $ golife
 ```
 
-[![asciicast](https://asciinema.org/a/vklDi5cbwJYaEwXbrO2NORpqD.svg)](https://asciinema.org/a/vklDi5cbwJYaEwXbrO2NORpqD)
+![Demo](https://github.com/ayoisaiah/golife/blob/master/demo.gif)
 
 ### Preset patterns
 
@@ -37,7 +37,7 @@ Load preset from file ([example](https://gist.github.com/ayoisaiah/dedd29b0f02e7
 $ golife --file gosperglidergun.cells
 ```
 
-[![asciicast](https://asciinema.org/a/sMM4BBpt3sgjHcjvwrz8SBysY.svg)](https://asciinema.org/a/sMM4BBpt3sgjHcjvwrz8SBysY)
+[See demo](https://asciinema.org/a/sMM4BBpt3sgjHcjvwrz8SBysY)
 
 Load preset from URL ([see here](http://copy.sh/life/examples/)):
 
@@ -45,11 +45,17 @@ Load preset from URL ([see here](http://copy.sh/life/examples/)):
 $ golife --url "http://copy.sh/life/examples/spider.rle" --input-format rle
 ```
 
-[![asciicast](https://asciinema.org/a/EuNYaZssuCt00kYsD2GyU1J6L.svg)](https://asciinema.org/a/EuNYaZssuCt00kYsD2GyU1J6L)
+[See demo](https://asciinema.org/a/EuNYaZssuCt00kYsD2GyU1J6L)
 
 ### Rules
 
-List available rules:
+The default rules as as follows:
+
+- Any live cell with two or three live neighbours survives.
+- Any dead cell with three live neighbours becomes a live cell.
+- All other live cells die in the next generation. Similarly, all other dead cells stay dead.
+
+However, there are other available rules. You can list them all using the following command:
 
 ```bash
 $ golife rules
@@ -82,7 +88,7 @@ Select a rule:
 $ golife --rule WalledCities
 ```
 
-[![asciicast](https://asciinema.org/a/ymVBKV06HwzqNjKbqIK1daurI.svg)](https://asciinema.org/a/ymVBKV06HwzqNjKbqIK1daurI)
+[See demo](https://asciinema.org/a/ymVBKV06HwzqNjKbqIK1daurI)
 
 ### Themes
 
@@ -100,7 +106,7 @@ Select a theme:
 $ golife --theme BlackOnWhite
 ```
 
-[![asciicast](https://asciinema.org/a/qSIdcaCUkxIi8EKyHcg8wnSBH.svg)](https://asciinema.org/a/qSIdcaCUkxIi8EKyHcg8wnSBH)
+[See demo](https://asciinema.org/a/qSIdcaCUkxIi8EKyHcg8wnSBH)
 
 ### Help
 
