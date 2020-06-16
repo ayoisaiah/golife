@@ -27,7 +27,7 @@ Basic usage:
 $ golife
 ```
 
-![Demo](https://github.com/ayoisaiah/golife/blob/master/demo.gif)
+[See demo](https://asciinema.org/a/vklDi5cbwJYaEwXbrO2NORpqD)
 
 ### Preset patterns
 
@@ -49,7 +49,7 @@ $ golife --url "http://copy.sh/life/examples/spider.rle" --input-format rle
 
 ### Rules
 
-The default rules as as follows:
+The default rules are as follows:
 
 - Any live cell with two or three live neighbours survives.
 - Any dead cell with three live neighbours becomes a live cell.
