@@ -9,9 +9,6 @@ Simulate John Conway's Game of Life in your terminal. TUI is powered by [tcell](
 
 **Note**: This project was made as part of the [Project52 challenge](https://github.com/ayoisaiah/project52) in order to improve my Go skills.
 
-## Demo
-
-
 ## Installation
 
 Make sure you have Go installed, then run the following command:
@@ -30,20 +27,25 @@ Basic usage:
 $ golife
 ```
 
+[![asciicast](https://asciinema.org/a/vklDi5cbwJYaEwXbrO2NORpqD.svg)](https://asciinema.org/a/vklDi5cbwJYaEwXbrO2NORpqD)
+
 ### Preset patterns
 
-Load preset from file:
+Load preset from file ([example](https://gist.github.com/ayoisaiah/dedd29b0f02e7147c4832253c896ac88)):
 
 ```bash
 $ golife --file gosperglidergun.cells
 ```
 
-Load preset from URL:
+[![asciicast](https://asciinema.org/a/sMM4BBpt3sgjHcjvwrz8SBysY.svg)](https://asciinema.org/a/sMM4BBpt3sgjHcjvwrz8SBysY)
+
+Load preset from URL ([see here](http://copy.sh/life/examples/)):
 
 ```bash
-$ golife --url "http://copy.sh/life/examples/gosperglidergun.rle" --input-format
-rle
+$ golife --url "http://copy.sh/life/examples/spider.rle" --input-format rle
 ```
+
+[![asciicast](https://asciinema.org/a/EuNYaZssuCt00kYsD2GyU1J6L.svg)](https://asciinema.org/a/EuNYaZssuCt00kYsD2GyU1J6L)
 
 ### Rules
 
@@ -80,6 +82,8 @@ Select a rule:
 $ golife --rule WalledCities
 ```
 
+[![asciicast](https://asciinema.org/a/ymVBKV06HwzqNjKbqIK1daurI.svg)](https://asciinema.org/a/ymVBKV06HwzqNjKbqIK1daurI)
+
 ### Themes
 
 List available themes:
@@ -93,8 +97,10 @@ BlackOnWhite
 Select a theme:
 
 ```bash
-$ golife --theme WhiteOnBlack
+$ golife --theme BlackOnWhite
 ```
+
+[![asciicast](https://asciinema.org/a/qSIdcaCUkxIi8EKyHcg8wnSBH.svg)](https://asciinema.org/a/qSIdcaCUkxIi8EKyHcg8wnSBH)
 
 ### Help
 
