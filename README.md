@@ -5,12 +5,8 @@
 [![HitCount](http://hits.dwyl.com/ayoisaiah/golife.svg)](http://hits.dwyl.com/ayoisaiah/golife)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
-Simulate John Conway's Game of Life in your terminal. TUI is powered by
+Simulate John Conway's Game of Life in your terminal. Interface is powered by
 [tcell](https://github.com/gdamore/tcell).
-
-**Note**: This project was made as part of the [Project52
-challenge](https://github.com/ayoisaiah/project52) in order to improve my Go
-skills.
 
 ## Demo
 
@@ -50,7 +46,7 @@ $ golife
 
 ### Preset patterns
 
-[RLE](https://conwaylife.com/wiki/Run_Length_Encoded), [Life 1.06](https://conwaylife.com/wiki/Life_1.06) and [Plaintext](https://conwaylife.com/wiki/Plaintext) patterns are supported by Golife. For example, here's a [huge list of Game of Life patterns](http://copy.sh/life/examples/) in the RLE format. Very large patterns may not wwork at this time.
+[RLE](https://conwaylife.com/wiki/Run_Length_Encoded), [Life 1.06](https://conwaylife.com/wiki/Life_1.06) and [Plaintext](https://conwaylife.com/wiki/Plaintext) patterns are supported by Golife. For example, here's a [huge list of Game of Life patterns](http://copy.sh/life/examples/) in the RLE format.
 
 You can load a preset pattern from a file
 ([example](https://gist.github.com/ayoisaiah/dedd29b0f02e7147c4832253c896ac88)):
@@ -71,7 +67,7 @@ $ golife --url "http://copy.sh/life/examples/spider.rle" --input-format rle
 
 ### Rules
 
-The default GoL rules are as follows:
+The default Game of Life rules are as follows:
 
 - Any live cell with two or three live neighbours survives.
 - Any dead cell with three live neighbours becomes a live cell.
